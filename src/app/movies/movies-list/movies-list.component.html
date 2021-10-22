@@ -1,0 +1,13 @@
+<p>movies-list works!</p>
+
+<tbody *ngFor="let movie of movies">
+    <tr>
+      <td>{{ movie.movieId }}</td>
+      <td>{{ movie.name }}</td>
+      <td>{{ movie.description }}</td>
+      <td>{{ movie.duree }}</td>
+      <td>{{ movie.genre }}</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <button type="submit" class="btn btn-primary"  style="margin-top: 50px;">Ajouter Film</button>
